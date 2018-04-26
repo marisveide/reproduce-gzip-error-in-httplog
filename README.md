@@ -1,8 +1,9 @@
 # README
 
-This Rails project reproduces the `Zlib::GzipFile::Error` error in httplog gem, when used with Google Cloud API.
+This Rails project reproduces the `Zlib::GzipFile::Error` error that response body from Google API is already unzipped, but the header is still saying that it's 'gzip' encoding.
+Which causes `httplog` to raise exception, because it tries to unzip the already unzipped body.
 
-To see the error, run the Rspec tests.
+To see the error, just run the Rspec tests.
 
 
 Running that test generates for me the following output:
