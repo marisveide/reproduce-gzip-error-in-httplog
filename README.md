@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails project reproduces the `Zlib::GzipFile::Error` error in httplog gem, when used with Google Cloud API.
 
-Things you may want to cover:
+To see the error, run the Rspec tests.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
