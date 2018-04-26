@@ -1,0 +1,5 @@
+{
+  "name": "reproduce-gzip-error-in-httplog",
+  "private": true,
+  "dependencies": {}
+}
